@@ -3,5 +3,10 @@
   "version": "0.0.1",
   "type": "module",
   "private": true,
-  "exports": "./index.js"
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  }
 }
