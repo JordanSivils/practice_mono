@@ -1,0 +1,26 @@
+{
+  "name": "mono-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "@repo/prettier-config": "workspace:*",
+    "prettier": "^3.10.1",
+    "turbo": "^2.11.11"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "10.26.2"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.26.2"
+}
