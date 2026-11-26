@@ -9,7 +9,11 @@
     "lint": "turbo run lint",
     "typecheck": "turbo run check-types",
     "format": "prettier -w .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "db:generate": "pnpm --filter @repo/database db:generate",
+    "db:migrate": "pnpm --filter @repo/database db:migrate"
   },
   "devDependencies": {
     "@repo/prettier-config": "workspace:*",

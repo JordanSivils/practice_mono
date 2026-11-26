@@ -1,6 +1,24 @@
+# Dependencies
 node_modules/
-.next/
-.turbo/
-dist/
+
+# Environment variables
 .env
-.env.local
+.env.*
+!.env.example
+
+# Build outputs
+dist/
+build/
+.next/
+
+# Turborepo
+.turbo/
+
+# Testing
+coverage/
+
+# macOS
+.DS_Store
+
+# Local database data
+postgres_data/
